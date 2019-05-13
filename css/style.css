@@ -19,7 +19,7 @@ body {
   height: 100vh;
 
   /* Center and scale the image nicely */
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(218, 224, 242);
