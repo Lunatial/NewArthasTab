@@ -19,5 +19,5 @@ function startTime() {
     var dateString = month + '/' + day + '/' + year;
     document.getElementById('clock').innerHTML = timeString;
     document.getElementById('date').innerHTML = dateString;
-    var t = setTimeout(startTime, 100);
+    var t = setTimeout(startTime, 1000);
 }

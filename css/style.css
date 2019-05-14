@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-/* html {
-    height: 100%;
-  } */
-
 body {
   padding: 16px;
 
@@ -23,10 +19,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(218, 224, 242);
-}
 
-h1 {
-  font-family: "ZCOOL XiaoWei", serif;
+  font-feature-settings: "tnum";
+  font-family: 'Nova Mono';
+  font-size: 30px;
 }
 
 .textBorder {
@@ -39,17 +35,16 @@ h1 {
   padding: 10px;
   font-size: 40px;
   text-shadow: 2px 2px var(--color-4);
-  font-family: "ZCOOL XiaoWei", serif;
 }
 
 #google-search {
   width: 100%;
   height: 40px;
-  font-family: "ZCOOL XiaoWei", serif;
   z-index: 1;
   font-size: 0.6em;
   font-weight: 500;
   padding-left: 12px;
+  font-family: 'Nova Mono';
 }
 
 .flexEnd {
@@ -60,7 +55,6 @@ h1 {
 
 .weather-container {
     font-size: 40px;
-    font-family: "ZCOOL XiaoWei", serif;
 }
 
 .flexSpaceBetween {
